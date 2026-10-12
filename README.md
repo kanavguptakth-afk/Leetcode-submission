@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0011-container-with-most-water](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0015-3sum) |
 | [0053-maximum-subarray](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0053-maximum-subarray) |
+| [0560-subarray-sum-equals-k](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0560-subarray-sum-equals-k) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -28,4 +29,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0011-container-with-most-water) |
+## Hash Table
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0560-subarray-sum-equals-k) |
+## Prefix Sum
+|  |
+| ------- |
+| [0560-subarray-sum-equals-k](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0560-subarray-sum-equals-k) |
 <!---LeetCode Topics End-->
