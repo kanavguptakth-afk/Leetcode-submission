@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0015-3sum) |
+| [0242-valid-anagram](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0242-valid-anagram) |
 ## Greedy
 |  |
 | ------- |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0242-valid-anagram) |
 | [0560-subarray-sum-equals-k](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0560-subarray-sum-equals-k) |
 ## Prefix Sum
 |  |
@@ -48,4 +50,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0042-trapping-rain-water) |
+## String
+|  |
+| ------- |
+| [0242-valid-anagram](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
