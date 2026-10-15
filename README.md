@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0242-valid-anagram](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0242-valid-anagram) |
 | [0560-subarray-sum-equals-k](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0560-subarray-sum-equals-k) |
 ## Prefix Sum
@@ -54,6 +55,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0125-valid-palindrome](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0242-valid-anagram) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/kanavguptakth-afk/Leetcode-submission/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
