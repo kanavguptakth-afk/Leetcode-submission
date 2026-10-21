@@ -1,41 +1,38 @@
+
 class Solution:
-    def minWindow(self, s: str, t: str) -> str:
-        def judge(x, y):
-            for i in range(52):
-                if x[i] < y[i]:
-                    return False
-            return True
+    def minWindow(self, s, t):
+        if not s or not t:
+            return ""
 
-        cnt = [0] * 52
+        need = {}
+        for char in t:
+            need[char] = need.get(char, 0) + 1
 
-        def to_index(c):
-            if ord("A") <= ord(c) <= ord("Z"):
-                return ord(c) - ord("A")
-            elif ord("a") <= ord(c) <= ord("z"):
-                return ord(c) - ord("a") + 26
-            else:
-                return None
+        left = 0
+        have = 0
+        required = len(need)
+        window = {}
+        result = ""
+        min_len = float("inf")
 
-        target = [0] * 52
-        for i in range(len(t)):
-            target[to_index(t[i])] += 1
+        for right in range(len(s)):
+            char = s[right]
+            window[char] = window.get(char, 0) + 1
 
-        ans = ""
-        ans_length = float("inf")
-        l = 0
-        for r in range(len(s)):
-            cnt[to_index(s[r])] += 1
-            if judge(cnt, target):
-                while l < r:
-                    cnt[to_index(s[l])] -= 1
-                    if judge(cnt, target):
-                        l += 1
-                    else:
-                        cnt[to_index(s[l])] += 1
-                        break
+            if char in need and window[char] == need[char]:
+                have += 1
 
-                if ans_length > r - l + 1:
-                    ans_length = r - l + 1
-                    ans = s[l:r+1]
-        
-        return ans
+            while have == required:
+                if right - left + 1 < min_len:
+                    min_len = right - left + 1
+                    result = s[left:right + 1]
+
+                left_char = s[left]
+                window[left_char] -= 1
+
+                if left_char in need and window[left_char] < need[left_char]:
+                    have -= 1
+
+                left += 1
+
+        return result
